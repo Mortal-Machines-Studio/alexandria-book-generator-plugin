@@ -9,7 +9,8 @@ A simple book generator utilizing PCG in Unreal Engine 5. Named after, you guess
   - Feel free to test it with older versions, but PCG has changed a lot between 5.2 and 5.4
 
 ## Installation
-Place the contents of the latest release into your Engine\Plugins folder
+- Download the Latest release from the sidebar
+- Place the contents of the latest release into your Engine\Plugins folder
 Windows: `C:\Program Files\Epic Games\UE_[version]\Engine\Plugins`
 
 https://dev.epicgames.com/documentation/en-us/unreal-engine/working-with-plugins-in-unreal-engine#plugininstallationlocations
