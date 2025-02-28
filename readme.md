@@ -1,4 +1,4 @@
-# Alexandria - Book Generator Plugin For UE5
+# Alexandria - Procedural Book Generator Plugin For UE5
 A simple book generator utilizing PCG in Unreal Engine 5. Named after, you guessed it, the Library of Alexandria. 
 
 
