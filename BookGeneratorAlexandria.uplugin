@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Alexandria - Book Generator",
+	"Description": "Book Generator made with PCG",
+	"Category": "Other",
+	"CreatedBy": "Mortal Machines Studio",
+	"CreatedByURL": "https://mortalmachinesstudio.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "BookGeneratorAlexandria",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PCG",
+			"Enabled": true
+		}
+	]
+}
