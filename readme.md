@@ -25,7 +25,7 @@ https://dev.epicgames.com/documentation/en-us/unreal-engine/working-with-plugins
 ## Parameters
 
 ### Actor
-#### Additional Books `Transform|Array`
+#### Additional Books `FTransform|Array`
 - Used for adding extra books, eg.: leaning book at the end, book on top of stack
 
 
@@ -34,7 +34,7 @@ https://dev.epicgames.com/documentation/en-us/unreal-engine/working-with-plugins
 #### Seed `Int`
 - Controls book generation, any given seed will generate the same set of orders for meshes selected from `Book Meshes`
 
-#### Book Meshes `Static Mesh|Array`
+#### Book Meshes `UStaticMesh*|Array`
 - Array of Meshes used to randomly (based on seed) pick from
 - *Note: Meshes should have the same orientation as the ones included in the plugin. Currently, I don't account for different orientation during point generation.*
 #### Number of Books `Int`
@@ -49,7 +49,7 @@ https://dev.epicgames.com/documentation/en-us/unreal-engine/working-with-plugins
 - Rotation randomness added to individual books
 #### Scale Min & Scale Max `FVector`
 - Scale randomness added to individual books
-#### Cover/Page Override Materials `UMaterialInstance|Array`
+#### Cover/Page Override Materials `UMaterialInstance*|Array`
 - Material Overrides for both Cover and Pages Material Slot on the included meshes `Plugin/Meshes`.
 - *This is more of an example of how to implement something like this if you want to override materials on your meshes.*
 
@@ -58,8 +58,8 @@ https://dev.epicgames.com/documentation/en-us/unreal-engine/working-with-plugins
 - Point Generation doesn't account for Mesh Orientation
 
 ## Contacts
-- [hello@mortalmachinesstudio.com](mailto:hello@mortalmachinesstudio.com)
-- [@corteno.bsky.social](https://bsky.app/profile/corteno.bsky.social)
+- Email: [hello@mortalmachinesstudio.com](mailto:hello@mortalmachinesstudio.com)
+- Bluesky: [@davidborsodi.com](https://bsky.app/profile/davidborsodi.com)
 
 ## License
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
