@@ -16,7 +16,7 @@ Windows: `C:\Program Files\Epic Games\UE_[version]\Engine\Plugins`
 https://dev.epicgames.com/documentation/en-us/unreal-engine/working-with-plugins-in-unreal-engine#plugininstallationlocations
 
 ## Usage
-- Drag `BP_PCG_Book_Generator_Actor` into the game world.
+- Drag `BP_ALX_Book_Generator_Actor` into the game world.
   - Can be found under `Plugins\Alexandria - Book Generator` in the content browser.
   - If you can't find it in the `Open Assets` window `Ctrl-P` you might need to enable `Show Plugin Content` in its settings.
 - Adjust Parameters to your liking
