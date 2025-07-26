@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "Alexandria - Book Generator",
+	"VersionName": "1.0.1",
+	"FriendlyName": "Alexandria - Book Generator", 
 	"Description": "Book Generator made with PCG",
 	"Category": "Other",
 	"CreatedBy": "Mortal Machines Studio",
@@ -18,7 +18,8 @@
 		{
 			"Name": "BookGeneratorAlexandria",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Linux", "Mac"]
 		}
 	],
 	"Plugins": [
@@ -26,5 +27,5 @@
 			"Name": "PCG",
 			"Enabled": true
 		}
-	]
+	]	
 }
