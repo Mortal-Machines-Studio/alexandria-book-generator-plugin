@@ -6,6 +6,7 @@ A simple book generator utilizing PCG in Unreal Engine 5. Named after, you guess
  - PCG plugin enabled | [Unreal Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-overview#requiredsetup)
 ## Compatible Engine versions
   - 5.5
+  - 5.6
   - Feel free to test it with older versions, but PCG has changed a lot between 5.2 and 5.4
 
 ## Installation
